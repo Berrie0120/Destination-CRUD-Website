@@ -1,0 +1,27 @@
+.resume-page{
+    font-family:sans-serif, Arial, Helvetica;
+    padding-left: 10%;
+}
+.contact ul{
+    font-weight: bold;
+}
+
+.profile h1{
+    font-weight: bold;
+}
+.profile p{
+    padding-left: 20px;
+}
+.profile-paragraph{
+    width: 500px;
+}
+
+.work{
+    padding: 20px 10px;
+}
+.work li{
+    padding: 4px 0px;
+}
+.work-list{
+    max-width: 600px;
+}

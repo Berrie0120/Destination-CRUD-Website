@@ -1,0 +1,276 @@
+body{
+  background-color: hsl(0, 0%, 99%);
+  z-index: 1;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.berrie-icon{
+  width: 40px;
+  border-radius: 100%;
+}
+
+.card{
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.118);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  height: 350px;
+  display: inline-block;
+  background-color: rgba(149, 147, 146, 0.862);
+}
+
+.card .card-image{
+  max-width: 200px;
+  height: auto;
+  border-radius: 30%;
+  margin-bottom: 10px ;
+}
+
+.card .card-title{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: hsla(0, 9%, 7%, 0.863);
+}
+
+.card .card-text{
+  font-family: Arial, Helvetica, sans-serif;
+  max-height: 100px;
+  overflow: auto;
+  color: hsla(0, 8%, 18%, 0.701);
+}
+
+.card:hover{
+  background-color: white;
+  border: 2px solid goldenrod;
+}
+.card:hover .card-image{
+  border: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: goldenrod;
+}
+.card .card-text::-webkit-scrollbar{
+  width: 5px;
+}
+
+.certificate{
+  margin-top: 30px;
+  margin-left: 80px;
+}
+.certificate h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.certificate-list{
+  width: 400px;
+}
+.certificate-list li{
+  padding-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:goldenrod;
+  list-style: square;
+}
+.certificate-list li a{
+  color: rgb(41, 128, 130);
+}
+
+.destination{
+  margin: 20px;
+  margin-left: 60px;
+  margin-top: 90px;
+  display: flex;
+}
+.destination-table{
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 0.9e;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.17);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+.destination-table thead tr{
+  background-color: rgba(41, 129, 130, 0.737);
+  color: rgb(224, 218, 218);
+  text-align: left;
+  font-weight:bold;
+  height: 40px;
+}
+.destination-table td  {
+  padding: 12px 15px;
+}
+.destination-table tbody tr{
+  border-bottom:  1px solid #929695;
+  height: 40px;
+}
+.destination-table tbody tr:nth-last-of-type(even){
+  background-color: rgba(90, 90, 90, 0.201);
+}
+.destination-table tbody tr:last-of-type{
+  border-bottom: 2px solid rgba(41, 129, 130, 0.737);
+}
+
+.destination-servey{
+  border: solid;
+  border-color:  rgba(41, 129, 130, 0.737);
+  border-radius: 20px;
+  margin-left: 10%;
+  padding: 30px;
+  width: 230px;
+  max-height: fit-content;
+}
+.destination-servey-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.destination-servey button{
+  align-self: flex-end;
+}
+
+.horizontal-card-list::-webkit-scrollbar-thumb{
+  background: goldenrod;
+  border-radius: 4px;
+}
+.horizontal-card-list::-webkit-scrollbar-track{
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 4px;
+  margin: 30px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 100px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: goldenrod;
+  border-radius: 15px;
+}
+
+.skills-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.skills h1{
+  color: rgba(59, 70, 84, 0.729);
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+  margin-left: 80px;
+}
+.skills-category{
+  margin-bottom: 20px;
+  margin-left: 80px;
+  text-align: center;
+}
+.skills h2{
+  font-size: x-large;
+  color: rgb(38, 37, 37);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.skills li {
+  list-style: none;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
+}
+
+.horizontal-card-list{
+  position: relative;
+  display: flex;
+  list-style: none ;
+  justify-content: flex-start;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 3px;
+  border-color:rgb(42, 41, 41);
+  padding-bottom: 10px;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.horizontal-card-list::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/vacationDestination.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 30%;
+  background-repeat: repeat;
+  opacity: 0.5;
+  z-index: -1; 
+}
+.horizontal-card-list li{
+  padding-left: 15px;
+}
+.center-backgroundInfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.backgroundInfo{
+  padding: 10px;
+  border: 1px solid rgba(41, 129, 130, 0.737);
+  border-radius: 1%;
+  border-width: 2px;
+  width: 75%;
+  max-width: 900px;
+  max-height: 450px;
+  overflow-y: auto;
+}
+.backgroundInfo h1{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: hsl(0, 1%, 15%);
+}
+
+.backgroundInfo p{
+  font-family: 'Courier New', Courier, monospace;
+  color: hsl(0, 1%, 33%);
+}
+.backgroundInfo:hover h1{
+  font-weight: bolder;
+  color: black;
+}
+.backgroundInfo:hover p{
+  font-weight: bold;
+  color: rgb(64, 61, 61);
+}
+
+.header h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  margin-left: 20px;
+}
+.header ul{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
