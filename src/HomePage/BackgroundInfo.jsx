@@ -3,11 +3,24 @@ function BackgroundInfo(){
         <>
             <div className="center-backgroundInfo">
             <div className="backgroundInfo">
-                <h1>More about me...</h1>
-                <p>In my high school years, my academic journey was a diverse mix, blending drama, tourism, mathematics, and natural sciences. This multidisciplinary approach not only broadened my understanding of various subjects but also instilled in me a passion for exploration and learning. While the stage and the intricacies of the natural world captivated my attention, it was the intersection of computer science and physics that sparked a newfound interest in programming. This fusion led me to delve into the fascinating realm of electronics, particularly exploring the capabilities of Arduino boards. The intersection of creativity and technology in these pursuits became the catalyst for my foray into the world of programming and, subsequently, full-stack development.</p>
-                <p>Currently pursuing studies in computer science and physics, my academic journey has evolved into a harmonious blend of theory and practical application. It's the perfect synergy that propels my ambition to create a tangible impact in the digital landscape. This journey has inspired me to embark on the development of my own app, a venture that represents the culmination of my diverse interests and skills. Through this app, I aim to showcase the unique combination of my background in drama, tourism, mathematics, and natural sciences, coupled with my growing expertise in computer science and physics. It's a testament to the idea that diverse experiences can converge to form innovative solutions in the tech world.</p>
-                <p>As I navigate the complexities of full-stack development, I am excited about the prospects of translating my creativity and technical proficiency into a tangible product. The blog website I am creating serves as a platform to document my capabilities, providing a glimpse into my journey from the stage and natural sciences to the world of programming. Through engaging content and project showcases, I hope to inspire others to embrace the power of interdisciplinary learning and demonstrate how a diverse skill set can contribute to meaningful innovations in the ever-evolving landscape of technology. This blog is not just a personal narrative; it's an invitation to join me on a journey where the fusion of passions gives rise to unique and impactful solutions.</p>
-            </div>
+                <h1>More about my Website...</h1>
+<p>Welcome to my website, where I showcase my capabilities in creating web applications using a variety of technologies. Let me give you a glimpse into how my website functions and what you can expect from it.</p>
+
+<p>**Technologies Used:**</p>
+<p>My website is built using React, HTML, and JavaScript, allowing for dynamic and interactive user experiences. The frontend design is crafted with HTML and CSS to ensure a visually appealing layout and seamless navigation.</p>
+
+<p>**A Seamless Experience:**</p>
+<p>From the moment you land on the homepage, you'll experience a seamless and intuitive user interface, carefully crafted with HTML and CSS to ensure both functionality and aesthetic appeal. Every element on the page is meticulously designed to provide a smooth and engaging browsing experience.</p>
+
+<p>**Under the Hood:**</p>
+<p>Behind the scenes, the magic happens with C#, ASP.NET, and Entity Framework Core. These backend technologies work tirelessly to manage data, handle user requests, and ensure the security and integrity of the system. Whether it's fetching data from a database or processing user input, the backend infrastructure is up to the task.</p>
+
+<p>**Showcasing My Skills:**</p>
+<p>Through my website, I'm not just showcasing my technical prowess; I'm demonstrating my ability to create real-world solutions that blend creativity with technical excellence. From CRUD operations to complex problem-solving, every aspect of my development journey is on display here.</p>
+
+<p>**Join Me on the Journey:**</p>
+<p>So, come on in and explore! Whether you're a fellow developer looking for inspiration or a potential collaborator eager to embark on new projects, my website is an open invitation to join me on this journey of exploration and innovation in the world of web development.</p>
+             </div>
             </div>
         </>
     );
