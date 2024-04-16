@@ -9,7 +9,7 @@ function Destination(){
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        fetch('https://destination-api1-03a891d4c0de.herokuapp.com/destinationRow')
+        fetch('https://destination-data-5cb56abf4939.herokuapp.com/destinationRow')
         .then(res => {
             if(!res.ok){
                 throw Error('Could not fetch destination data');
@@ -28,7 +28,7 @@ function Destination(){
     },[]);
 
     const handleDelete = (id) => {
-        fetch(`https://destination-api1-03a891d4c0de.herokuapp.com/destinationRow/${id}`, {
+        fetch(`https://destination-data-5cb56abf4939.herokuapp.com/destinationRow/${id}`, {
             method: 'DELETE'
         })
         .then(res => {
@@ -44,7 +44,7 @@ function Destination(){
 
     const handleAdd = () => {
         // Fetch data after adding a new entry
-        fetch('https://destination-api1-03a891d4c0de.herokuapp.com/destinationRow')
+        fetch('https://destination-data-5cb56abf4939.herokuapp.com/destinationRow')
         .then(res => {
             if(!res.ok){
                 throw Error('Could not fetch destination data');
