@@ -1,4 +1,4 @@
-MEfunction Skills(){
+function Skills(){
     
     const skill1 = "Object Oriented Programming";
     const skill2 = "Design Patterns";
