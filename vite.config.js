@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3000,  // Client port
     proxy: {
       '/destinationRow': {
-        target: 'http://localhost:5000', // Mock server port
+        target: 'https://destination-api1-03a891d4c0de.herokuapp.com/', // Mock server port
         changeOrigin: true,
         secure: false,
         ws: true,
