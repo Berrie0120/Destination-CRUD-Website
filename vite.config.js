@@ -1,14 +1,13 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 3000,  // Client port
     proxy: {
       '/destinationRow': {
-        target: 'https://destination-api1-03a891d4c0de.herokuapp.com/', // Mock server port
+        target: 'https://destination-api1-03a891d4c0de.herokuapp.com/', // Updated live backend URL
         changeOrigin: true,
         secure: false,
         ws: true,
@@ -23,7 +22,7 @@ export default defineConfig({
             console.log('Received Response from the Target:', proxyRes.statusCode, req.url);
           });
         },
-      }
-    }
-  }
-})
+      },
+    },
+  },
+});
