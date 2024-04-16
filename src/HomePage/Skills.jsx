@@ -18,7 +18,7 @@ function Skills(){
   return (
     <>
       <div className="skills">
-        <h1>Berrie's Skills</h1>
+        <h1>Berrie's AWESOME Skills</h1>
         <div className="skills-container">
             <div className="skills-category">
             <h2>Front-end</h2>
