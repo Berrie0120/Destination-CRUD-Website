@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/destinationRow': {
-        target: 'https://destination-api1-03a891d4c0de.herokuapp.com/', // Updated live backend URL
+        target: 'https://destination-data-5cb56abf4939.herokuapp.com/', // Updated live backend URL
         changeOrigin: true,
         secure: false,
         ws: true,
