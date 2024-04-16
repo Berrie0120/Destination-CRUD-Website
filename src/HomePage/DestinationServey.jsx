@@ -16,7 +16,7 @@ function DestinationServey({onAdd}){
             return;
         }
 
-        axios.post('http://localhost:3000/destinationRow', {
+        axios.post('https://jovial-stardust-f73854.netlify.app/destinationRow', {
             name: name,
             destination: destination,
             season: season,
